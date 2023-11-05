@@ -9,7 +9,7 @@ Por primera vez, hay dos formas:
 
 1- Crean carpeta en su compu
 2- Abren git bash en esa carpeta
-3- ejecutan git clone https://github.com/natitejeda/ProyectoPescar.git
+3- ejecutan git clone https://github.com/natitejeda/ProyectoPescar
 
 
 
