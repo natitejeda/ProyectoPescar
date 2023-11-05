@@ -110,3 +110,47 @@ z-index: 1;
   width: 1388px;
   height: 600px;
 }
+
+/*-----------------Footer-----------------*/
+footer{
+  font-size: 23px;
+  font-weight: 700;
+  color: white;
+  width: 100vw;
+  position: fixed;
+  bottom: 0px;
+  height: 222px;
+  background-color: #9993B7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-fundacion{
+  margin: 57px;
+}
+
+footer div {
+  margin-right: 45px;
+}
+
+footer div p{
+  text-align: right;
+  margin: 7px auto;
+}
+
+footer div p a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-ubi{
+  margin-right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.footer-ubi img {
+  margin-right: 10px;
+}
