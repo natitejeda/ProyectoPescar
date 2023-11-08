@@ -115,14 +115,13 @@ z-index: 1;
 /*-----------------SeccionInicio-----------------*/
 
 #seccionInicio #contenedor {
- 
-  width: 1140px; ;  
+  width: 1140px;  
   margin: auto;
-
-
-
-
+  padding: 20px;
+  display: flex;
+  align-items: center;
 }
+
 #seccionInicio .alreves{
 display: flex;
 flex-direction:row-reverse;
@@ -130,12 +129,6 @@ flex-direction:row-reverse;
 
 }
 
-
-#seccionInicio #contenedor{
-  padding: 20px;
-  display: flex;
-  align-items: center;
-}
 #seccionInicio div{
 width: 400px;
 margin: auto;
