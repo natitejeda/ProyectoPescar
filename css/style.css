@@ -7,7 +7,7 @@
   font-family: Inter, Helvetica, sans-serif;
 }
 body{
-  height: 100vh;
+  height: 100%;
   background: linear-gradient(#FFF4E2, #FFDCA4);
   background-repeat: no-repeat;
 }
@@ -110,6 +110,78 @@ z-index: 1;
   margin: 20px auto;
   width: 1388px;
   height: 600px;
+}
+
+/*-----------------SeccionInicio-----------------*/
+
+#seccionInicio #contenedor {
+ 
+  width: 1140px; ;  
+  margin: auto;
+
+
+
+
+}
+#seccionInicio .alreves{
+display: flex;
+flex-direction:row-reverse;
+
+
+}
+
+
+#seccionInicio #contenedor{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+#seccionInicio div{
+width: 400px;
+margin: auto;
+text-align: center;
+}
+
+
+#seccionInicio img {
+  width: 500px;
+  height: auto;
+  margin-right: 20px;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 15%;
+}
+
+
+#seccionInicio img:hover {
+  transform: scale(1.2);
+}
+
+
+#seccionInicio  #btn-ver-mas {
+  background-color:hsl(310, 38%, 67%);
+  width: 468px;
+  height: 82px;
+  top: 35px;
+  left: 274px;
+  border-radius: 20px;
+  border: 2.5px hsla(0, 0%, 100%, 0.49) solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  margin: auto;
+ 
+}
+#seccionInicio  #btn-ver-mas a{
+ text-decoration: none;
+ color: rgb(255, 255, 255);
+ font-size: 36px;
+ 
+}
+
+
+#seccionInicio  #btn-ver-mas:hover {
+  background-color: #9993b761;
 }
 
 /*-----------------Footer-----------------*/
