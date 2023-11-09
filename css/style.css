@@ -219,3 +219,82 @@ footer div p a {
 .footer-ubi img {
   margin-right: 10px;
 }
+
+
+
+/*------------------NUEVO INDEX------------------*/
+.main-dos{
+  display: flex;
+  height: 100vh;
+}
+
+.menu-lateral{
+  width: 500px;
+  height: 100vh;
+  position: relative;
+  overflow-y: scroll;
+  background-color: hsla(0, 0%, 100%, 0.3);
+  padding: 20px;
+}
+
+/* Ancho de la barra de desplazamiento */
+.menu-lateral::-webkit-scrollbar {
+    width: 3px; 
+}
+
+/* Color de la barra de desplazamiento */
+.menu-lateral::-webkit-scrollbar-thumb {
+    background-color: #6570ab4e;
+}
+
+.contenido-main{
+  /* border: solid 1px black; */
+  margin: 25px 50px;
+  overflow-y: scroll;
+  padding: 15px;
+  width: 100%;
+}
+
+/* Ancho de la barra de desplazamiento */
+.contenido-main::-webkit-scrollbar {
+    width: 3px; 
+}
+
+/* Color de la barra de desplazamiento */
+.contenido-main::-webkit-scrollbar-thumb {
+    background-color: #6570ab4e;
+}
+
+.footer-dos{
+  margin-top: 0px;
+}
+
+.menu-lateral a,
+.menu-lateral ul ul li a {
+    text-decoration: none;
+    color: #6570AB;
+    display: block;
+    padding: 15px;
+    transition: background-color 0.7s, color 0.7s;
+    border-radius: 10px;
+}
+
+.menu-lateral a:hover,
+.menu-lateral ul ul li a:hover {
+    background-color: hsla(231, 70%, 50%, 0.3);
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.menu-lateral ul {
+    list-style: none;
+    padding: 5px;
+}
+
+.menu-lateral h2 {
+    padding: 15px;
+}
+
+.menu-lateral ul ul {
+    margin-left: 20px;
+}
