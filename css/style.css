@@ -239,16 +239,34 @@ footer div p a {
 
 /* Ancho de la barra de desplazamiento */
 .menu-lateral::-webkit-scrollbar {
-    width: 3px; 
+  width: 3px; 
 }
 
 /* Color de la barra de desplazamiento */
 .menu-lateral::-webkit-scrollbar-thumb {
-    background-color: #6570ab4e;
+  background-color: #6570ab4e;
+}
+  
+.menu-lateral a{
+  text-decoration: none;
+  color: #6570AB;
+  display: block;
+  padding: 15px;
+  transition: background-color 0.7s, color 0.7s;
+  border-radius: 10px;
+}
+
+.menu-lateral a:hover{
+  background-color: hsla(231, 70%, 50%, 0.3);
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.subtitulo{
+  margin-left: 20px;
 }
 
 .contenido-main{
-  /* border: solid 1px black; */
   margin: 25px 50px;
   overflow-y: scroll;
   padding: 15px;
@@ -267,34 +285,4 @@ footer div p a {
 
 .footer-dos{
   margin-top: 0px;
-}
-
-.menu-lateral a,
-.menu-lateral ul ul li a {
-    text-decoration: none;
-    color: #6570AB;
-    display: block;
-    padding: 15px;
-    transition: background-color 0.7s, color 0.7s;
-    border-radius: 10px;
-}
-
-.menu-lateral a:hover,
-.menu-lateral ul ul li a:hover {
-    background-color: hsla(231, 70%, 50%, 0.3);
-    color: #ffffff;
-    border-radius: 10px;
-}
-
-.menu-lateral ul {
-    list-style: none;
-    padding: 5px;
-}
-
-.menu-lateral h2 {
-    padding: 15px;
-}
-
-.menu-lateral ul ul {
-    margin-left: 20px;
 }
