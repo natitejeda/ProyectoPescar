@@ -294,9 +294,8 @@ main{
   border: solid 5px #CEC5D6;
   width: 274px;
   height: 477px;
-  margin: 0 0 0 48px;
-  overflow-y: scroll;
-  background-color: rgb(255, 252, 250);
+  margin-left: 48px;
+  overflow-y: hidden;
   padding: 10px;
 }
 
@@ -316,22 +315,28 @@ main{
 
 .menu-lateral a{
   font-family: raleway, Helvetica, sans-serif;
+  font-size: 18px;
   font-weight: 700;
-  color: #6570AB;
+  color: #746788;
   display: block;
-  padding: 15px;
-  transition: background-color 0.7s, color 0.7s;
-  border-radius: 10px;
+  padding: 12px;
 }
 
-.menu-lateral a:hover{
-  background-color: hsla(231, 70%, 50%, 0.3);
-  color: #ffffff;
-  border-radius: 10px;
+.menu-lateral a:hover::before{
+  content: url("../img/vertical-line.png");
+  vertical-align: middle;
+  font-weight: 500;
 }
 
-.subtitulo{
-  margin-left: 20px;
+.menu-lateral .subtitulo{
+  font-size: 16px;
+  margin-left: 15px;
+  font-weight: 400;
+  color: #7F85A3;
+}
+
+.menu-lateral .subtitulo:hover{
+  font-weight: 500;
 }
 
 .container-info{
@@ -373,10 +378,9 @@ main{
   font-weight: 500;
 }
 
-
 .container-info h2,
-.container-info h4,
 .container-info h3,
+.container-info h4,
 .container-info p,
 .container-info li{
   color: #746788;
