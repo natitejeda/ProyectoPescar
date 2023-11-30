@@ -230,18 +230,73 @@ footer div p a {
 
 
 /*------------------NUEVO INDEX------------------*/
-.main-dos{
+.container-principal{
+  text-align: auto;
+}
+
+.container-img-logo{
+  text-align: right;
+}
+
+.container-img-logo img {
+  margin-top: 78px;
+  margin-right: 173px;
+}
+
+.container-h1-guia{
+  text-align: left;
+}
+
+.container-h1-guia h1{
+  font-size: 45px;
+  font-weight: 700;
+  color: #746788;
+  margin-top: -13px;
+  margin-left: 238px;
+}
+
+.linea-guia{
+  margin-top: 9px;
+  margin-left: 238px;
+}
+
+.container-info-guia{
   display: flex;
-  height: 100vh;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.container-info-guia p{
+  margin-left: 31px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #7F85A3;
+  width: 606px;
+  text-align: center;
+}
+
+.linea-guia-dos{
+  margin-top: 50px;
+  margin-left: 379px;
+}
+
+main{
+  height: 100%;
+}
+
+.container-info-menu{
+  display: flex;
+  justify-content: space-between;
 }
 
 .menu-lateral{
-  width: 500px;
-  height: 100vh;
-  position: relative;
+  border: solid 5px #CEC5D6;
+  width: 274px;
+  height: 477px;
+  margin: 0 0 0 48px;
   overflow-y: scroll;
   background-color: rgb(255, 252, 250);
-  padding: 20px;
+  padding: 10px;
 }
 
 /* Ancho de la barra de desplazamiento */
@@ -253,9 +308,14 @@ footer div p a {
 .menu-lateral::-webkit-scrollbar-thumb {
   background-color: #6570ab4e;
 }
-  
+
+.menu-lateral li{
+  list-style: none;
+}
+
 .menu-lateral a{
   text-decoration: none;
+  list-style: none;
   color: #6570AB;
   display: block;
   padding: 15px;
@@ -273,11 +333,10 @@ footer div p a {
   margin-left: 20px;
 }
 
-.contenido-main{
-  margin: 40px 50px;
-  overflow-y: scroll;
-  padding: 15px;
-  width: 80%;
+.container-info{
+  width: 852px;
+  margin: auto;
+  margin-top: 48px;
 }
 
 /* Ancho de la barra de desplazamiento */
@@ -288,6 +347,29 @@ footer div p a {
 /* Color de la barra de desplazamiento */
 .contenido-main::-webkit-scrollbar-thumb {
     background-color: #6570ab4e;
+}
+
+.container-info h2{
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.container-info h3{
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.container-info p,
+.container-info li{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.container-info h2,
+.container-info h3,
+.container-info p,
+.container-info li{
+  color: #746788;
 }
 
 .footer-dos{
