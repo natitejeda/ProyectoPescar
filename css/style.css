@@ -20,7 +20,7 @@ a{
 /*-----------------Header-----------------*/
 .header_all{
   width: 100%;
-  height: 104px;
+  height: 71px;
   background: linear-gradient(#B7AEE3, #938DB0);
   box-shadow: 0px 8px 20px 6px #00000040;
   display: flex;
@@ -31,8 +31,8 @@ a{
 
 .header_buscador{
   background-color: hsla(250, 100%, 96%, 0.51);
-  width: 231px;
-  height: 42px;
+  width: 256px;
+  height: 38px;
   top: 35px;
   left: 274px;
   border-radius: 10px;
@@ -48,13 +48,13 @@ a{
 
 .header_nav-bar{ 
   display: flex;
-  margin: auto 135px auto 0;
+  margin: auto 183px auto 0;
 }
 .nav-bar_categorias{
   margin: 0px 20px;
   list-style: none;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 16px;
   color: #FFFFFF;
   border-bottom: 3px solid transparent;
 }
@@ -65,8 +65,8 @@ a{
 
 .header_pop-up{
 position: absolute;
-width: 150px;
-height: 201px;
+width: 129px;
+height: 190px;
 right: 0%;
 top: 2%;
 background: #C4C3E3;
@@ -74,6 +74,9 @@ box-shadow: 0px 8px 35px 10px rgba(138, 139, 152, 0.56);
 border-radius: 50% 0 0 50%;
 z-index: 1;
 }
+
+
+
 
 .pop-up_items{
   background: #AEA9E5;
@@ -91,22 +94,22 @@ z-index: 1;
 
 
 .item_telefono{
-  width: 71px;
-  height: 66px;
+  width: 68px;
+  height: 67px;
   position: relative;
   top: -10px;
   left: 42px;
   
 }
 .item_mail{
-  width: 88px;
-  height: 82px;
+  width: 75px;
+  height: 75px;
   position: relative;
   right: 33px;
 }
 .item_whatsapp{
-  width: 104px;
-  height: 104px;
+  width: 76px;
+  height: 76px;
   position: relative;
   bottom: 0px;
   left: 26px;
@@ -119,6 +122,89 @@ z-index: 1;
   margin: 20px auto;
   width: 1388px;
   height: 600px;
+}
+
+
+/*------emociones-------*/
+.emociones{
+  background-color: #E5E8F8;
+  height: 513px;
+  margin: 85px auto 230px auto;
+  cursor: pointer;
+}
+
+.emociones h3{
+  color: #556AB5;
+  font-weight: 400;
+  font-size: 40px;
+  padding: 29px 0 0 48px;
+}
+
+.emociones h2{
+  color: #6570AB;
+  font-weight: 700;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+
+}
+
+.emociones_texto{
+  color: #7F85A3;
+  font-weight: 500;
+  font-size: 25px;
+  margin: 20px 56px;
+}
+
+.emociones_caras{
+  display: flex;
+  justify-content: space-around
+}
+.contenedor_seccion_caras{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.emociones_caja_img{
+  width: 176px;
+  height: 180px;
+  border-radius: 17%;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 25px 15px #B9C3E796;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emociones_caras_texto{
+  width: 239px;
+  height: 65px;
+  border-radius: 39px;
+  background-color: #BAC3F3;
+  box-shadow: 0px 0px 15px 1px #00000036 inset;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 7.5%;
+}
+.emociones_caras_texto p{
+  color: #FFFFFF;
+  font-size: 25px;
+  font-weight: 700;
+  align-self: end;
+}
+
+
+.emociones_caras_flechas{
+  display: flex;
+  flex-direction: column;
+}
+
+.emociones_caras_flechas img {
+  width: 94px;
+  height: 80px;
 }
 
 /*-----------------SeccionInicio-----------------*/
