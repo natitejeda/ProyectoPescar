@@ -65,17 +65,17 @@ a{
 
 .header_pop-up{
 position: absolute;
-width: 129px;
-height: 190px;
-right: 0%;
-top: 2%;
+width: 190px;
+height: 101px;
+left: 92.36%;
+top: 9%;
 background: #C4C3E3;
 box-shadow: 0px 8px 35px 10px rgba(138, 139, 152, 0.56);
-border-radius: 50% 0 0 50%;
+border-bottom-left-radius: 50% 100%;
+border-bottom-right-radius: 50% 100%;
+transform: rotate(90deg);
 z-index: 1;
 }
-
-
 
 
 .pop-up_items{
@@ -85,11 +85,13 @@ z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;
+  transform: rotate(-90deg);
 }
 
 .pop-up_items:hover{
-  transform: scale(1.1);
+  transform: scale(1.1) rotate(-90deg);
   transition: all 1s;
+
 }
 
 
@@ -97,22 +99,22 @@ z-index: 1;
   width: 68px;
   height: 67px;
   position: relative;
-  top: -10px;
-  left: 42px;
+  top: 7px;
+  left: -27px;
   
 }
 .item_mail{
   width: 75px;
   height: 75px;
   position: relative;
-  right: 33px;
+  right: -50px;
 }
 .item_whatsapp{
   width: 76px;
   height: 76px;
   position: relative;
-  bottom: 0px;
-  left: 26px;
+  bottom: 134px;
+  right: -127px;
 }
 
 
