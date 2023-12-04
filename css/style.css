@@ -119,9 +119,9 @@ z-index: 1;
 /*-----------------Main-----------------*/
 
 .carousel {
-  margin: 20px auto;
-  width: 1388px;
-  height: 600px;
+  margin: 98px auto 0 auto;
+  width: 900px;
+  height: 516px;
 }
 
 
@@ -129,7 +129,7 @@ z-index: 1;
 .emociones{
   background-color: #E5E8F8;
   height: 513px;
-  margin: 85px auto 230px auto;
+  margin: 0 auto 230px auto;
   cursor: pointer;
 }
 
@@ -154,7 +154,7 @@ z-index: 1;
   color: #7F85A3;
   font-weight: 500;
   font-size: 25px;
-  margin: 20px 56px;
+  margin: 40px 56px;
 }
 
 .emociones_caras{
@@ -206,6 +206,33 @@ z-index: 1;
   width: 94px;
   height: 80px;
 }
+
+.slide-bottom {
+	-webkit-animation: slide-bottom 1s linear infinite alternate both;
+	        animation: slide-bottom 1s linear infinite alternate both;
+}
+
+ @-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+}
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+}
+
 
 /*-----------------SeccionInicio-----------------*/
 
