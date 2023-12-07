@@ -9,7 +9,7 @@ const cerrarModalEmociones = document.getElementById('cerrar-modal-emociones')
 
 
 async function getFrases() {
-  const frasesURL = '../json/frases.json'
+  const frasesURL = 'https://raw.githubusercontent.com/natitejeda/ProyectoPescar/main/json/frases.json?token=GHSAT0AAAAAAB7MUSLHTY4PIPAJTXDZ3YMMZLR2TMQ'
   const res = await fetch(frasesURL)
   const data = await res.json()
   return data
