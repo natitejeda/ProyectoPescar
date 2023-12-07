@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "emocion": "feliz",
+    "texto": "Celebramos cada pequeño logro. ¡Su bebé es un guerrero!"
+  },
+  {
+    "id": 2,
+    "emocion": "feliz",
+    "texto": "Cada día, sus bebés nos enseñan sobre la verdadera fortaleza y resistencia."
+  },
+  {
+    "id": 3,
+    "emocion": "triste",
+    "texto": "Es un momento difícil, pero mantén tus esperanzas."
+  },
+  {
+    "id": 4,
+    "emocion": "triste",
+    "texto": "Sus pequeños son luchadores, y ustedes también lo son"
+  },
+  {
+    "id": 5,
+    "emocion": "triste",
+    "texto": "Es comprensible sentir tristeza. Queremos recordarte que no estás sola en este camino. Encuentra apoyo no solo en nuestra comunidad, sino también en tu familia, amigos y, especialmente, en la presencia reconfortante de tu bebé."
+  },
+  {
+    "id": 6,
+    "emocion": "preocupada",
+    "texto": "Es comprensible que te sientas preocupada"
+  },
+  {
+    "id": 7,
+    "emocion": "preocupada",
+    "texto": "Celebra los pequeños logros, cada paso que da tu bebe es un paso adelante"
+  },
+  {
+    "id": 8,
+    "emocion": "preocupada",
+    "texto": "Comparte tus pensamientos, sentimientos e inquietudes"
+  },
+  {
+    "id": 9,
+    "emocion": "preocupada",
+    "texto": "Confía en el equipo de salud"
+  },
+  {
+    "id": 10,
+    "emocion": "preocupada",
+    "texto": "No dudes en hacer preguntas, tu bienestar y tranquilidad son fundamentales"
+  }
+  
+]
