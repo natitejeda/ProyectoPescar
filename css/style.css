@@ -132,7 +132,6 @@ z-index: 1;
   background-color: #E5E8F8;
   height: 513px;
   margin: 0 auto 230px auto;
-  cursor: pointer;
 }
 
 .emociones h3{
@@ -161,12 +160,13 @@ z-index: 1;
 
 .emociones_caras{
   display: flex;
-  justify-content: space-around
+  justify-content: space-around;
 }
 .contenedor_seccion_caras{
   display: flex;
   flex-direction: column;
   align-items: center;
+  cursor: pointer;
 }
 
 .emociones_caja_img{
@@ -207,6 +207,8 @@ z-index: 1;
 .emociones_caras_flechas img {
   width: 94px;
   height: 80px;
+  position: relative;
+  bottom: 37px;
 }
 
 .slide-bottom {
@@ -235,6 +237,49 @@ z-index: 1;
   }
 }
 
+/*-----------------Modal Emociones-----------------*/
+.modal_emociones_container{
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  
+
+}
+
+.modal {
+  background: #c5adc7;
+  height: 500px;
+  width: 700px;
+  border: 2px solid #eee;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+  transition: transform 1s;
+  transform: translateY(0%);
+  color: #670179;
+}
+.modal-close{
+  transform: translateY(-200%);
+}
+.cerrar_modal_emociones{
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  cursor: pointer;
+}
 
 /*-----------------SeccionInicio-----------------*/
 

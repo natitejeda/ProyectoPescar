@@ -81,7 +81,7 @@
         diseñado para ofrecerte apoyo emocional y brindarte herramientas que te ayuden a afrontar los desafíos con
         fortaleza.</p>
       <div class="emociones_caras">
-        <div class="contenedor_seccion_caras">
+        <div class="contenedor_seccion_caras" id="btn-cara_feliz">
           <div class="emociones_caja_img"><img src="./img/cara_feliz.png" alt="cara feliz"></div>
           <div class="emociones_caras_texto">
             <p>Me siento bien</p>
@@ -90,7 +90,7 @@
             <img src="./img/doble_flecha.png" alt="flecha abajo">
           </div>
         </div>
-        <div class="contenedor_seccion_caras">
+        <div class="contenedor_seccion_caras" id="btn-cara-triste">
           <div class="emociones_caja_img"><img src="./img/cara_triste.png" alt="cara triste"></div>
           <div class="emociones_caras_texto">
             <p>Me siento triste</p>
@@ -99,7 +99,7 @@
             <img src="./img/doble_flecha.png" alt="flecha abajo">
           </div>
         </div>
-        <div class="contenedor_seccion_caras">
+        <div class="contenedor_seccion_caras" id="btn-cara-preocupada">
           <div class="emociones_caja_img"><img src="./img/cara_preocupada.png" alt="cara preocupada"></div>
           <div class="emociones_caras_texto">
             <p>Preocupado/a</p>
@@ -110,6 +110,13 @@
         </div>
       </div>
 
+    </section>
+
+    <section class="modal_emociones_container" id="modal-emociones-container">
+      <div class="modal modal-close" id="modal-emociones-texto">
+        <div class="cerrar_modal_emociones" id="cerrar-modal-emociones"><img src="./img/cruz.png" alt="cerrar"></div>
+        <h2>Tu frase del día es: </h2>
+      </div>
     </section>
 
     <section id="seccionInicio">
@@ -164,6 +171,12 @@
       </p>
     </div>
   </footer>
+
+
+
+  <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
 </body>
 
 </html>
