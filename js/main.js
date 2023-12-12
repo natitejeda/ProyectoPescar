@@ -4,12 +4,15 @@ const btnPreocupado = document.getElementById('btn-cara-preocupada')
 const modalEmocionesContainer = document.getElementById('modal-emociones-container')
 const modalEmociones = document.querySelector('.modal')
 const modalEmocionesTexto = document.getElementById('modal-emociones-texto')
+const infoGuiaModal = document.getElementById('info-guia-modal')
 
 const cerrarModalEmociones = document.getElementById('cerrar-modal-emociones')
 
 
 async function getFrases() {
-  const frasesURL = 'https://raw.githubusercontent.com/natitejeda/ProyectoPescar/main/json/frases.json?token=GHSAT0AAAAAAB7MUSLHTY4PIPAJTXDZ3YMMZLR2TMQ'
+  const frasesURL = '../json/frases.json'
+
+
   const res = await fetch(frasesURL)
   const data = await res.json()
   return data
@@ -35,7 +38,7 @@ const escojerEmocion = async (emocion) => {
   textoModal.setAttribute('id', 'frase-motivacional')
   textoModal.appendChild(auxtextoModal)
 
-  modalEmocionesTexto.append(textoModal)
+  modalEmocionesTexto.insertBefore(textoModal,infoGuiaModal)
 }
 
 
