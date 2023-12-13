@@ -8,7 +8,7 @@ const infoGuiaModal = document.getElementById('info-guia-modal')
 
 const cerrarModalEmociones = document.getElementById('cerrar-modal-emociones')
 
-
+// traigo las frases desde el json
 async function getFrases() {
   const frasesURL = '../json/frases.json'
 
@@ -18,6 +18,7 @@ async function getFrases() {
   return data
 }
 
+// elijo una frase random, segun la emoción
 const escojerEmocion = async (emocion) => {
 
   const data = await getFrases()
@@ -41,6 +42,8 @@ const escojerEmocion = async (emocion) => {
   modalEmocionesTexto.insertBefore(textoModal,infoGuiaModal)
 }
 
+
+//botones de emociones y cerrar modal
 
 btnFeliz.addEventListener('click', (e) => {
   e.preventDefault()
