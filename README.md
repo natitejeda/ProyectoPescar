@@ -10,6 +10,6 @@ class: para css
 
 Recordar hacer clases representativas que otras puedan entender facil
 
-No esta muy bueno usar "<br >" "<hr >" etc.
+No esta muy bueno usar "br" "hr" etc.
 
 Los div son amigos, no comida
