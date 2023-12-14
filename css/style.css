@@ -577,6 +577,7 @@ main{
   margin-top: 122px;
 }
 
+.container-alta h3,
 .container-nutricion h3,
 .container-madres-fuertes h3{
   font-weight: 700;
@@ -606,6 +607,7 @@ main{
   color: #7F85A3;
 }
 
+.container-alta h3,
 .container-nutricion h3,
 .container-nutricion h4{
   text-align: center;
@@ -637,6 +639,10 @@ main{
 .info-nutricion-der{
   width: 388px;
   margin-left: 81px;
+}
+
+.container-alta h3{
+  margin-top: 63px;
 }
 
 .container-footer-guia{
