@@ -451,18 +451,22 @@ footer div p a {
 }
 
 .container-info-guia img{
-  width: 100%;
-  height: auto;
+  object-fit: contain;
+  margin-left: 84px;
 }
 
 .container-info-guia p{
   margin-left: 31px;
+  margin-right: 101px;
   margin-top: 10px;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 500;
   color: #7F85A3;
-  width: 604px;
   text-align: center;
+}
+
+.container-info-guia div p{
+  width: 580px;
 }
 
 .linea-guia-dos{
