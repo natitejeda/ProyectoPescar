@@ -41,34 +41,29 @@
     </div>
   </header>
   <main>
-    <div id="carouselExampleIndicators" class="carousel slide">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-          aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-          aria-label="Slide 3"></button>
-      </div>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="img/familia_feliz.jpg" class="d-block w-100" alt="Guia para padres">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <a href="nosotros.html"><img src="./img/index/img_carrousel_1.png" class="d-block w-100"
+              alt="bienvenida pequeños guerreros"></a>
         </div>
-        <div class="carousel-item">
-          <img src="img/bebes.jpg" class="d-block w-100" alt="Cuidados del bebé">
+        <div class="carousel-item" data-bs-interval="10000">
+          <a href="comunidad.html"><img src="./img/index/img_carrousel_2.png" class="d-block w-100"
+              alt="Historias de vida"></a>
         </div>
-        <div class="carousel-item">
-          <img src="img/comunidad.jpg" class="d-block w-100" alt="Comunidad">
+        <div class="carousel-item" data-bs-interval="10000">
+          <a href="informacion.html"><img src="./img/index/img_carrousel_3.png" class="d-block w-100"
+              alt="Momento del alta"></a>
         </div>
       </div>
-      <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicators"
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
         data-bs-slide="prev">
-        <span class="carousel-control-prev-icon btn btn-secondary" aria-hidden="true"></span>
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
         data-bs-slide="next">
-        <span class="carousel-control-next-icon btn btn-secondary" aria-hidden="true"></span>
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
