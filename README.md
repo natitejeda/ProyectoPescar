@@ -5,7 +5,9 @@ Proyecto: "Pequeños guerreros"
 ------------------------------------------------------------------------------------------------
 
 Normas conjuntas:
+
 id: para Javascript
+
 class: para css
 
 Recordar hacer clases representativas que otras puedan entender facil
