@@ -609,23 +609,25 @@ main{
 .container-nutricion h3,
 .container-nutricion h4{
   text-align: center;
+  width: 839px;
 }
 
 .info-nutricion{
   margin-top: 18px;
   display: flex;
-  justify-content: space-between;
 }
 
 .info-nutricion li,
 .info-nutricion p{
   font-size: 16px;
   color: #7F85A3;
-  font-weight: 500;
+  font-weight: 400;
 }
 
-.info-nutricion h4{
-
+.info-nutricion h5{
+  color: #7F85A3;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .info-nutricion-izq{
@@ -634,6 +636,7 @@ main{
 
 .info-nutricion-der{
   width: 388px;
+  margin-left: 81px;
 }
 
 .container-footer-guia{
