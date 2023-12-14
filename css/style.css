@@ -570,9 +570,10 @@ main{
 }
 
 .container-madres-fuertes{
-  margin-top: 98px;
+  margin-top: 122px;
 }
 
+.container-nutricion h3,
 .container-madres-fuertes h3{
   font-weight: 700;
   font-size: 24px;
@@ -588,6 +589,47 @@ main{
 
 .container-madres-fuertes li{
   margin-top: 19px;
+}
+
+.container-nutricion{
+  margin-top: 80px;
+}
+
+.container-nutricion h4{
+  margin-top: 18px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #7F85A3;
+}
+
+.container-nutricion h3,
+.container-nutricion h4{
+  text-align: center;
+}
+
+.info-nutricion{
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-nutricion li,
+.info-nutricion p{
+  font-size: 16px;
+  color: #7F85A3;
+  font-weight: 500;
+}
+
+.info-nutricion h4{
+
+}
+
+.info-nutricion-izq{
+  width: 415px;
+}
+
+.info-nutricion-der{
+  width: 388px;
 }
 
 .container-footer-guia{
