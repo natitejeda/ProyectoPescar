@@ -413,7 +413,7 @@ footer div p a {
 
 
 
-/*------------------NUEVO INDEX------------------*/
+/*------------------Información------------------*/
 .container-principal{
   text-align: auto;
 }
@@ -536,7 +536,7 @@ main{
 }
 
 .menu-lateral .subtitulo:hover::before{
-  content: url("../img/vertical-line.png");
+  content: url("../img/general/vertical-line.png");
   vertical-align: middle;
   position: absolute;
   left: -15px; 
@@ -647,4 +647,22 @@ main{
 
 .container-footer-guia{
   margin-top: 0px;
+}
+
+/*------------------Comunidad------------------*/
+
+.introduccion_comunidad h1{
+  font-weight: 700;
+  font-size: 60px;
+  color: #746788;
+  margin: 100px auto auto 313px;
+}
+
+.introduccion_comunidad_img{
+  display: flex;
+  height: 900px;
+  width: auto;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
 }
