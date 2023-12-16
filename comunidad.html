@@ -38,7 +38,7 @@
     </div>
   </header>
 
-  <main>
+  <main class="container_comunidad">
     <section class="introduccion_comunidad">
       <h1>¡Compartir en Comunidad!</h1>
       <img src="img/general/linea_guia.png" alt="Linea separadora" class="linea-guia">
@@ -55,7 +55,7 @@
       <div>
         <h3>“El método madre canguro en Colombia”</h3>
         <h4>Luceny Urrutia Quiñones</h4>
-        <div>
+        <div class="historias">
           <img src="./img/comunidad/img_padres_1.png" alt="imagen de padres 1">
           <div>
             <p>Fraysa Sharleht llegó antes de lo previsto. Con apenas 36 semanas de embarazo y en pleno trabajo, veo que
@@ -79,7 +79,7 @@
       <div>
         <h3>“Recién a los dos meses pude tocarle la manito y a los tres, cargarlo por primera vez”</h3>
         <h4>Sabrina Lastra</h4>
-        <div>
+        <div class="historias">
           <img src="./img/comunidad/img_padres_2.png" alt="imagen de padres 2">
           <div>
             <p>Rodrigo nació a las 27 semanas (antes de los 7 meses) con 525 gramos, porque yo tenía picos de presión y
@@ -106,7 +106,7 @@
       <div>
         <h3>“Mi hijo ha logrado superar muchas barreras. Es un niño fuerte”</h3>
         <h4>Skarlett Rivera</h4>
-        <div>
+        <div class="historias">
           <img src="./img/comunidad/img_padres_3.png" alt="imagen de padres 3">
           <div>
             <p>El nacimiento del pequeño Asher Gagdiel se vio amenazado debido a mi salud. En el séptimo mes sufrí una
@@ -123,28 +123,34 @@
           </div>
         </div>
       </div>
+
+      <div class="ver_mas_comunidad">
+        <div class="flecha_abajo_comunidad slide-bottom"><img src="./img/general/doble_flecha_comunidad.png"
+            alt="ver mas"></div>
+        <p>Ver más</p>
+      </div>
     </section>
     <img src="img/general/linea_guia.png" alt="Linea separadora" class="linea-guia">
-    <section>
+
+    <section class="compartir_historias">
       <h2>Compartí tu Historia</h2>
 
       <form action="" class="comunidad_form">
-        <label for="nombre"></label>
-        <input type="text" name="nombre" placeholder="Nombre">
-        <label for="email"></label>
-        <input type="email" name="email" placeholder="email">
-        <label for="titulo"></label>
-        <input type="text" name="titulo" placeholder="Título">
-        <label for="historia"></label>
-        <input type="text" name="historia" placeholder="Redacte su Historia aquí">
-
+        <div class="comunidad_form-campos">
+          <input type="text" name="nombre" placeholder="Nombre">
+          <input type="email" name="email" placeholder="email">
+          <input type="text" name="titulo" placeholder="Título">
+          <textarea class="redactar_historia" type="text" name="historia"
+            placeholder="Redacte su Historia aquí"></textarea>
+        </div>
         <p>*El lenguaje ofensivo o el texto fuera del contexto puede ser motivo de rechazo para su posterior
           publicación. El mensaje debe ser aprobado por los responsables del sitio*</p>
-
-        <label for="img"></label>
-        <input type="file" name="img" accept="image/png, image/jpeg">
-
-        <input type="submit" value="Enviar a Revisión">
+        <div class="enviar_foto">
+          <input type="file" name="img" accept="image/png, image/jpeg">
+        </div>
+        <div class="btn_submit">
+          <input type="submit" value="Enviar a Revisión">
+        </div>
       </form>
     </section>
 
