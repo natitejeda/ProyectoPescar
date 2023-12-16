@@ -414,24 +414,17 @@ footer div p a {
 
 
 /*------------------Información------------------*/
-.container-principal{
-  text-align: auto;
-}
-
-.container-img-logo{
+.container-logo-guia{
   text-align: right;
 }
 
-.container-img-logo img {
+.container-logo-guia img {
   margin-top: 78px;
   margin-right: 173px;
 }
 
-.container-h1-guia{
+.container-guia-informativa h1{
   text-align: left;
-}
-
-.container-h1-guia h1{
   font-size: 45px;
   font-weight: 700;
   color: #746788;
@@ -480,7 +473,6 @@ main{
 
 .container-info-menu{
   display: flex;
-  justify-content: space-between;
   position: relative;
 }
 
@@ -502,7 +494,7 @@ main{
 
 /* Color de la barra de desplazamiento */
 .menu-lateral::-webkit-scrollbar-thumb {
-  background-color: #ff0000;
+  background-color: #000000;
 }
 
 .menu-lateral ul{
@@ -544,92 +536,67 @@ main{
   transform: translateY(-50%);
 }
 
-.container-info{
+.container-info-general{
   width: 852px;
-  margin: auto;
-  margin-top: 45.5px;
+  margin-top: 45px;
   margin-left: 39px;
   flex: 1;
 }
 
-.bienestar-titulos h2{
+.container-info-menu h2{
   font-size: 28px;
   font-weight: 700;
   color: #746788;
   margin: 0;
 }
 
-.bienestar-titulos h3{
-  font-size: 23px;
-  font-weight: 500;
+.container-info-menu h3{
+  font-size: 24px;
+  font-weight: 600;
   margin: 0px;
   margin-top: 15px;
-  color: #746788;
+  color: #8C7D98;
+}
+
+.container-info-menu h4{
+  font-weight: 600;
+  font-size: 18px;
+  color: #ADAFD9;
+}
+
+.container-info-menu p,
+.container-info-menu li{
+  font-weight: 500;
+  font-size: 16px;
+  color: #7F85A3;
 }
 
 .carousel.slide.bienestar{
   margin: 0;
   margin-top: 33px;
-  width: 946px;
+  width: 925px;
 }
 
-.container-madres-fuertes{
-  margin-top: 122px;
-}
-
-.container-alta h3,
-.container-nutricion h3,
-.container-madres-fuertes h3{
-  font-weight: 700;
-  font-size: 24px;
-  color: #746788;
-}
-
-.container-madres-fuertes p,
-.container-madres-fuertes li{
-  font-weight: 500;
-  font-size: 16px;
-  color: #7F85A3;
-}
-
-.container-madres-fuertes li{
-  margin-top: 19px;
-}
-
-.container-nutricion{
-  margin-top: 80px;
-}
-
-.container-nutricion h4{
-  margin-top: 18px;
-  font-weight: 700;
-  font-size: 20px;
-  color: #7F85A3;
-}
-
-.container-alta h3,
-.container-nutricion h3,
-.container-nutricion h4{
-  text-align: center;
-  width: 839px;
+.container-madres-fuertes,
+.container-nutricion,
+.container-alta,
+.container-cuidado,
+.container-controles,
+.container-banner-info,
+.container-cuidado-neo,
+.container-info-neo,
+.container-cuidados-padres,
+.container-piel-a-piel,
+.container-alimentacion,
+.container-ropa-pañales,
+.container-familia,
+.container-hospitales{
+  margin-top: 45px;
 }
 
 .info-nutricion{
   margin-top: 18px;
   display: flex;
-}
-
-.info-nutricion li,
-.info-nutricion p{
-  font-size: 16px;
-  color: #7F85A3;
-  font-weight: 400;
-}
-
-.info-nutricion h5{
-  color: #7F85A3;
-  font-weight: 700;
-  font-size: 20px;
 }
 
 .info-nutricion-izq{
@@ -639,38 +606,6 @@ main{
 .info-nutricion-der{
   width: 388px;
   margin-left: 81px;
-}
-
-.container-alta{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.container-alta img {
-  max-width: 100%; 
-  max-height: 100%; 
-  width: auto; 
-  height: auto; 
-  margin-top: 20px; 
-}
-
-.container-alta p,
-.container-alta ol {
-  text-align: left; 
-  margin-top: 10px;
-  font-weight: 500;
-  font-size: 16px;
-  color: #7F85A3;
-}
-
-.container-alta h3{
-  margin-top: 63px;
-}
-
-.container-footer-guia{
-  margin-top: 0px;
 }
 
 /*------------------Comunidad------------------*/
