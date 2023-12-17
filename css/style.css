@@ -527,10 +527,12 @@ footer div p a {
     position: relative;
 }
 
+.menu-lateral .subtitulo-activo,
 .menu-lateral .subtitulo:hover {
-    font-weight: 600;
+    font-weight: 700;
 }
 
+.menu-lateral .subtitulo-activo::before,
 .menu-lateral .subtitulo:hover::before {
     content: url("../img/general/vertical-line.png");
     vertical-align: middle;
