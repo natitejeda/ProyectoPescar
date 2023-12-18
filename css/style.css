@@ -326,64 +326,64 @@ main {
 
 /*-----------------SeccionInicio-----------------*/
 
-#seccionInicio #contenedor {
-    width: 57%;
-    margin: auto;
-    padding: 20px;
-    display: flex;
+.seccion_inicio {
+    width: 100%;
+    height: 100%;
+    display: flex; /*para centrar el contenido con flex direccion colum*/ 
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    margin-top: 360px;
 }
 
-#seccionInicio .alreves {
-    display: flex;
-    flex-direction: row-reverse;
-
-
-}
-
-#seccionInicio div {
-    width: 400px;
-    margin: auto;
-    text-align: center;
-}
-
-
-#seccionInicio img {
-    height: auto;
-    margin-right: 20px;
-    transition: transform 0.3s ease-in-out;
-    border-radius: 15%;
-}
-
-
-#seccionInicio img:hover {
-    transform: scale(1.2);
-}
-
-
-#seccionInicio #btn-ver-mas {
-    background-color: hsl(310, 38%, 67%);
-    width: 468px;
-    height: 82px;
-    top: 35px;
-    left: 274px;
-    border-radius: 20px;
-    border: 2.5px hsla(0, 0%, 100%, 0.49) solid;
+.index_article {
+    width: 86%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: auto;
+    text-align: justify;
+    margin-bottom: 60px;
 }
 
-#seccionInicio #btn-ver-mas a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 36px;
-
+#img_alrevez {
+    margin-right: 100px;
 }
 
+.txt_inicio {
+    max-width: 600px;
+    margin-left: 100px;
+}
 
-#seccionInicio #btn-ver-mas:hover {
+.txt_inicio div p {
+    width: 600px;
+    height: auto;
+    color: #2E2E2E;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.seccion_inicio div a button {
+    width: 369px;
+    height: 68px;
+    border-radius: 20px;
+    background: #E494D7;
+    background-image: url(/img/index_flecha.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 300px;
+    border: none;
+}
+
+.seccion_inicio div a button span {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 40px;
+}
+
+.txt_inicio a button:hover {
     background-color: #9993b761;
 }
 
