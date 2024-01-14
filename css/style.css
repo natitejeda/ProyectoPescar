@@ -25,6 +25,7 @@ main {
 }
 
 /*-----------------Header-----------------*/
+
 .header_all {
     width: 100%;
     height: 71px;
@@ -32,8 +33,11 @@ main {
     box-shadow: 0px 8px 20px 6px #00000040;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-
+    padding-left: 1rem;
+}
+.header_logo img {
+    width: 180px;
+    height: 50px;
 }
 
 .menu_hamburguesa{
@@ -95,7 +99,7 @@ main {
     margin: 0px 20px;
     list-style: none;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #FFFFFF;
     border-bottom: 3px solid transparent;
 }
@@ -108,10 +112,10 @@ main {
     position: absolute;
     width: 190px;
     height: 101px;
-    left: 93.1%;
-    top: 9%;
+    right: -5%;
+    top: 14%;
     background: #C4C3E3;
-    box-shadow: 0px 8px 35px 10px rgba(138, 139, 152, 0.56);
+    box-shadow: 0px 8px 35px 0px rgba(158, 161, 202, 0.56);
     border-bottom-left-radius: 50% 100%;
     border-bottom-right-radius: 50% 100%;
     transform: rotate(90deg);
@@ -130,8 +134,8 @@ main {
 }
 
 .pop-up_items:hover {
-    transform: scale(1.1) rotate(-90deg);
-    transition: all 1s;
+    transform: scale(1.2) rotate(-90deg);
+    transition: all 0.5s;
 
 }
 
@@ -140,8 +144,8 @@ main {
     width: 68px;
     height: 67px;
     position: relative;
-    top: 7px;
-    left: -27px;
+    top: 15px;
+    left: -19px;
 
 }
 
@@ -156,7 +160,7 @@ main {
     width: 76px;
     height: 76px;
     position: relative;
-    bottom: 134px;
+    bottom: 128px;
     right: -127px;
 }
 
@@ -165,7 +169,7 @@ main {
 
 .carousel {
     margin: 98px auto 0 auto;
-    width: 900px;
+    width: 800px;
     height: 516px;
 }
 
@@ -180,7 +184,7 @@ main {
 .emociones h3 {
     color: #556AB5;
     font-weight: 400;
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding: 29px 0 0 48px;
 }
 
@@ -305,8 +309,8 @@ main {
 
 .modal {
     background: linear-gradient(#E5E8F8, #FFF8F8);
-    height: 795px;
-    width: 1174px;
+    height: 400px;
+    width: 600px;
     border: 5px solid #E5E8F8;
     border-radius: 37px;
     text-align: center;
@@ -328,16 +332,16 @@ main {
 .cerrar_modal_emociones {
     position: absolute;
     top: 2%;
-    right: 2%;
+    right: 3%;
     cursor: pointer;
-    color: #BAC3F3;
-    font-weight: 700;
-    font-size: 3.125rem;
+    color: #9196b2;;
+    font-weight: 500;
+    font-size: 2rem;
 }
 
 .modal h2 {
     color: #6570AB;
-    font-size: 3.125rem;
+    font-size: 2rem;
     font-weight: 700;
 }
 
@@ -352,7 +356,7 @@ main {
 .modal div p {
     color: #6B719A;
     font-weight: 200;
-    font-size: 2.188rem;
+    font-size: 1.5rem;
 }
 
 
@@ -398,7 +402,7 @@ main {
 }
 
 .seccion_inicio div a button {
-    width: 369px;
+    width: 300px;
     height: 68px;
     border-radius: 20px;
     background: #E494D7;
@@ -413,7 +417,7 @@ main {
     color: #FFF;
     font-size: 1.25rem;
     font-weight: 600;
-    margin-right: 40px;
+    margin-right: 4px;
 }
 
 .txt_inicio a button:hover {
@@ -471,15 +475,15 @@ footer div p a {
 }
 
 .container-logo-guia img {
-    margin: 78px 173px 0 0;
+    margin: 30px 173px 15px 0;
 }
 
 .container-guia-informativa h1 {
     text-align: left;
-    font-size: 2.813rem;
+    font-size: 2.8rem;
     font-weight: 700;
     color: #746788;
-    margin: -13px 0 0 238px;
+    margin: 30px 0 0 238px;
 }
 
 .linea-guia {
@@ -507,7 +511,7 @@ footer div p a {
 }
 
 .linea-guia-dos {
-    margin: 50px 0 0 376px;
+    margin: 40px 0 0 310px;
 }
 
 .container-info-menu {
@@ -518,12 +522,12 @@ footer div p a {
 .menu-lateral {
     border: solid 5px #CEC5D6;
     width: 300px;
-    height: 572px;
+    height: 500px;
     margin-left: 48px;
     overflow-y: scroll;
-    padding: 10px;
+    padding: 7rem;
     position: sticky;
-    top: 40px;
+    top: 10px;
 }
 
 /* Ancho de la barra de desplazamiento */
@@ -537,27 +541,31 @@ footer div p a {
 }
 
 .menu-lateral ul {
-    padding: 0;
+    padding-left: 0;
     color: #746788;
     list-style: none;
+    display: block;
+    margin: -5rem -5rem;
 }
 
 .menu-lateral a {
     font-family: raleway, Helvetica, sans-serif;
-    font-size: 1.125rem;
+    font-size: 0.8rem;
     font-weight: 700;
     display: block;
     padding: 10px;
     color: #746788;
+    line-height: 20px;
 }
 
 .menu-lateral .subtitulo {
     line-height: 7px;
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin-left: 15px;
     font-weight: 500;
     color: #7F85A3;
     position: relative;
+    line-height: 20px;
 }
 
 .menu-lateral .subtitulo-activo,
@@ -618,6 +626,7 @@ footer div p a {
 .carousel.slide.bienestar {
     margin: 0;
     margin-top: 33px;
+    margin-left: -35px;
     width: 925px;
     text-align: right;
 }
@@ -913,7 +922,7 @@ footer div p a {
 
 .introduccion_comunidad h1{
   font-weight: 700;
-  font-size: 3.75rem;
+  font-size: 2.8rem;
   color: #746788;
   margin-top: 100px;
 }
@@ -954,7 +963,7 @@ footer div p a {
 .publicaciones p{
   color: #7F85A3;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 0.9rem;
 }
 
 .historias{
@@ -963,11 +972,11 @@ footer div p a {
 }
 
 .historias p {
-  margin: 20px;
+  margin: 0px 50px;
 }
 .historias img{
-  width: 100%;
-  height: auto;
+  width: 50%;
+  height: 50%;
 }
 .compartir_historias{
   margin-top: 20px;
@@ -976,7 +985,7 @@ footer div p a {
 .compartir_historias h2{
   color: #746788;
   font-weight: 700;
-  font-size: 3.438rem;
+  font-size: 2rem;
 }
 
 .compartir_historias p{
@@ -1035,7 +1044,7 @@ footer div p a {
   border: 4px solid #EAE5EB;
   border-radius: 20px;
   font-weight: 400;
-  font-size: 2.188rem;
+  font-size: 1.5rem;
   font-family: 'Raleway', sans-serif;
   color: #A9ADC4;
   padding-left: 26px;
@@ -1105,6 +1114,31 @@ border-radius: 23px;
   background: #756E9D;
 }
 
+@media (max-width: 1024px) {
+    .header_nav-bar {
+        display: flex;
+        margin: auto 183px auto 0;
+        padding-left: 0px;
+    }
+    .nav-bar_categorias {
+        margin: 0px 10px;
+        list-style: none;
+        font-weight: 700;
+        font-size: 0.8rem;
+        color: #FFFFFF;
+        border-bottom: 3px solid transparent;
+    }
+    .menu-lateral {
+        border: solid 5px #CEC5D6;
+        width: 300px;
+        height: 500px;
+        margin-left: 48px;
+        overflow-y: scroll;
+        padding: 100px;
+        position: sticky;
+        top: 10px;
+    }
+}
 
 
 @media (max-width: 768px) {
@@ -1173,6 +1207,42 @@ border-radius: 23px;
         display: none;
     }
 
+    /*-------------------------------- INFORMACIÓN -------------------------------------------*/
+    .container-logo-guia img {
+        /* margin: 30px 173px 15px 0; */
+        display: none;
+    }
+    .container-info-guia img {
+        display: none;
+    }
+    .container-info-guia p {
+        margin: 0px 40px 10px 35px;
+        font-size: 1rem;
+        font-weight: 500;
+        color: #7F85A3;
+        text-align: center;
+        width: 400px;
+    }
+    .container-guia-informativa h1 {
+        text-align: left;
+        font-size: 2.8rem;
+        font-weight: 700;
+        color: #746788;
+        margin: 40px 0 0 43px;
+    }
+    .linea-guia {
+        margin: 0px 0px 0px 23px;
+        line-height: 80px;
+        width: 500px;
+        height: 6px;
+    }
+    .container-info-general {
+        width: 200px;
+        margin-top: 40px;
+        margin-left: 39px;
+        margin-right: 55px;
+        flex: 1;
+    }
     
 
 }
