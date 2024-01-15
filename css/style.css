@@ -507,16 +507,12 @@ footer div p a {
     color: #746788;
     text-align: center;
     margin: 10px 101px 0 31px;
-<<<<<<< HEAD
 
 }
 
 .container-info-guia p {
     margin: 30px 101px 0 31px;
     font-size: 20px;
-=======
-    font-size: 1.1rem;
->>>>>>> aac8ceebaf46623a80e7f38a574e48e083a9c340
     font-weight: 500;
     color: #7F85A3;
     text-align: center;
@@ -1153,7 +1149,10 @@ border-radius: 23px;
     }
 }
 
-<<<<<<< HEAD
+
+/*DONACIONES*/
+
+
 .seccion_donaciones {
     width: 160vh;
     margin: auto;
@@ -1327,7 +1326,7 @@ border-radius: 23px;
   .accordion-button::after {
 background-image: url(../img/donaciones/abajo.png);
   }
-=======
+ /*---CIERRA DONACIONES --*/
 
 @media (max-width: 768px) {
     .menu_hamburguesa{
@@ -1434,4 +1433,6 @@ background-image: url(../img/donaciones/abajo.png);
     
 
 }
->>>>>>> aac8ceebaf46623a80e7f38a574e48e083a9c340
+
+
+
