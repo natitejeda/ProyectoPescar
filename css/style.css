@@ -902,6 +902,16 @@ footer div p a {
     width: 545px;
 }
 
+.container-info-visitas-img{
+    width: 344px;
+    height: 260px;
+}
+
+.container-info-visitas-bebe{
+    width: 321px;
+    height: 250px;
+}
+
 .container-info-visita img {
     display: block;
     object-fit: contain;
