@@ -1316,6 +1316,11 @@ background-image: url(../img/donaciones/abajo.png);
   }
  /*---CIERRA DONACIONES --*/
 
+ /* BOTÓN */
+ #botonArriba {
+    display: none;
+}
+
 @media (max-width: 768px) {
     .menu_hamburguesa{
         display: flex;
@@ -1421,6 +1426,7 @@ background-image: url(../img/donaciones/abajo.png);
     
     /* BOTÓN ARRIBA*/ 
 #botonArriba{
+    display: block;
     position: fixed; /*elemento se coloca respecto al viewport*/
     bottom: 20px;
     right: -100px;
@@ -1432,7 +1438,6 @@ background-image: url(../img/donaciones/abajo.png);
 }
 
 }
-
 
 
 @media (max-width: 1024px) {
