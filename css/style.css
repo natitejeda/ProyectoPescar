@@ -1401,6 +1401,7 @@ background-image: url(../img/donaciones/abajo.png);
         color: #746788;
         margin: 40px auto 0;
     }
+    .linea-guia-dos,
     .linea-guia {
         display: flex;
         margin: 20px auto 0;
