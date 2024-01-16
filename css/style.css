@@ -1419,6 +1419,17 @@ background-image: url(../img/donaciones/abajo.png);
         flex: 1;
     }
     
+    /* BOTÓN ARRIBA*/ 
+#botonArriba{
+    position: fixed; /*elemento se coloca respecto al viewport*/
+    bottom: 20px;
+    right: -100px;
+    transition: 1s; /*tiempo de transición de estados*/
+}
+
+#botonArriba:hover{ /*cuando interactuamos con el elemento, por ejemplo pasando el mouse por arriba*/
+    transform: scale(1.1); /*modifica el tamaño del elemento*/
+}
 
 }
 
