@@ -1549,3 +1549,252 @@ background-image: url(../img/donaciones/abajo.png);
     }
 
 }
+
+
+
+/*INICIA NOSOTROS*/
+
+.contenedor_nosotros {
+margin: 50px 50px;
+
+
+}
+
+.contenedor_nosotros h2 {
+    color: #6570AB;
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.contenedor_nosotros img {
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.contenedor_nosotros section .contenido_texto_nosotros{
+
+width: 560px;
+height: auto;
+
+}
+
+.contenido_texto_nosotros h3 {
+    color: #6570AB;
+    font-size: 22px;
+   font-weight: 700;
+   margin-bottom: 20px;
+
+}
+
+.contenido_texto_nosotros p {
+color: #7C7C7C;
+font-size: 18px;
+margin-bottom: 30px;
+
+}
+
+div h3 {
+    color: #7C7C7C;
+    font-size: 26px;
+   font-weight: 500;
+}
+
+.seccion_nosotros{
+    display: flex;
+}
+
+
+.seccion_nosotros .contenedor_linkedin  {
+position: relative;
+left: 100px;
+
+}
+
+.text_linkedin {
+    display: none;
+}
+
+.contenedor_linkedin a img {
+    width: 100px;}
+
+.link_ro img {
+    position: absolute;
+    left: 300px;
+  top: 0px;
+}
+    
+
+.link_nati img {
+    position: absolute;
+    left: 140px;
+    top:80px}
+
+.icon_linkedin {
+    position: absolute;
+    left: 100px;
+    top:240px;
+    width: 60px;}
+
+.link_geo img {
+    position: absolute;
+    left: 140px;
+    top:360px;}
+
+.link_sofi img {
+    position: absolute;
+    left: 300px;
+    top:450px ; }
+
+  
+    @media  (max-width: 950px) {
+
+    .link_ro img {
+        
+        left: 60px;
+        top: 0px;}
+    
+    .link_nati img {
+        left: -60px;
+        top:80px}
+    
+    .icon_linkedin {
+        left: -80px;
+        top:240px;
+        width: 60px;}
+    
+    .link_geo img {
+        left: -60px;
+        top:360px;}
+    
+    .link_sofi img {
+        left: 60px;
+        top:450px ; }
+
+}
+
+@media  (max-width: 800px) {
+    
+    .contenedor_nosotros {
+        margin: 50px 10px;
+        
+        }
+
+    .contenedor_nosotros h2 {
+        color: #6570AB;
+        font-size: 24px;
+    
+        font-weight: 500;
+    }
+
+    .contenedor_nosotros section .contenido_texto_nosotros{
+
+        width: auto;
+        margin: auto;}
+
+
+        .contenido_texto_nosotros h3 {
+            font-size: 18px;
+           font-weight: 500;}
+        
+        .contenido_texto_nosotros p {
+        font-size: 12px;}
+
+        .seccion_nosotros{
+            display: contents;
+            margin: auto;
+             display: block;   
+              
+              }
+        .contenedor_linkedin .icon_linkedin  {
+            display: none;
+            margin: auto; }
+
+                .link_ro img {
+                    position: relative;
+                    top: 0;
+                    left: 0;}
+                
+                .link_nati img {
+                    position: relative;
+                    top: 0;
+                    left: 0;}
+                
+               
+                .link_geo img {
+                    position: relative;
+                    top: 0;
+                    left: 0;
+                }
+                .link_sofi img {
+                    position: relative;
+                    top: 0;
+                    left: 0;}
+
+                    .contenedor_linkedin .icon_linkedin  {
+                        display: none;
+                        margin: auto; } 
+                
+
+}
+
+
+
+@media  (max-width: 630px) {
+
+    .seccion_nosotros .contenedor_linkedin{
+        display: block;  }
+
+        .contenedor_linkedin .icon_linkedin  {
+            display: none;
+            margin: auto; }
+
+          article.contenedor_linkedin{
+            height: 70px;
+          }
+
+article.contenedor_linkedin div {
+    margin: 20px 50px;
+
+    height: 70px;
+
+}
+
+.link_ro img { 
+    width: 60px;
+}
+                 
+.link_nati img { 
+    width: 60px;
+}
+
+.link_geo img { 
+    width: 60px;
+}
+.link_sofi img { 
+    width: 60px;
+}
+
+div h3 {
+    font-size: 14px;
+text-align: center;
+}
+
+
+.text_linkedin  {
+    display:contents;
+    text-decoration: underline;
+    color: #7C7C7C;
+    font-size: 12px;
+    font-weight: 700;
+
+}
+
+
+}
+
+
+
+
+
+/*CIERRA NOSOTROS*/
