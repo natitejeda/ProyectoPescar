@@ -1388,10 +1388,12 @@ background-image: url(../img/donaciones/abajo.png);
     }
 
     /*-------------------------------- INFORMACIÓN -------------------------------------------*/
+    .container-info-visitas img,
+    .container-ropa-info-img img,
+    .container-alimentacion-imgs-circulos,
+    .container-alimentacion-img-info img,
+    .container-info-guia img,
     .container-logo-guia img {
-        display: none;
-    }
-    .container-info-guia img {
         display: none;
     }
     .container-guia-informativa h1 {
@@ -1429,11 +1431,73 @@ background-image: url(../img/donaciones/abajo.png);
         text-align: center;
     }
     .container-info-general {
-        width: 200px;
-        margin-top: 40px;
-        margin-left: 39px;
-        margin-right: 55px;
-        flex: 1;
+        display: block;
+        width: 90%;
+        margin: 40px auto;
+        text-align: left;
+    }
+    .container-info-menu{
+        flex-direction: column;
+    }
+
+    .menu-lateral{
+        position: none;
+        top: auto;
+        margin-left: 0;
+        display: none;
+    }
+
+    #carouselExample{
+        width: 100%;
+        margin: auto;
+    }
+
+    .container-info-visitas div p,
+    .container-uso-pañal img,
+    .container-alimentacion-imgs img,
+    .container-tips-piel img,
+    .container-tips-piel-img img,
+    .container-cuidados-img-info img,
+    .container-neo-img img,
+    .container-banner-info img,
+    .container-cuidados-casa ul,
+    .container-alta img,
+    .container-carrusel-bienestar img{
+        width: 100%;
+    }
+
+    .container-cuidado h3,
+    .container-madres-fuertes,
+    .container-nutricion,
+    .container-alta,
+    .container-cuidado,
+    .container-controles,
+    .container-banner-info,
+    .container-cuidado-neo,
+    .container-info-neo,
+    .container-cuidados-padres,
+    .container-piel-a-piel,
+    .container-alimentacion,
+    .container-ropa-pañales,
+    .container-familia,
+    .container-hospitales {
+        margin-top: 60px;
+    }
+
+    .container-neo-info-img lavarse-manos,
+    .container-tips-piel,
+    .container-cuidados-img-info,
+    .container-neo-info-img ,
+    .container-estetoscopio,
+    .container-cuidados-casa{
+        display: block;
+    }
+
+    .container-neo-info-img lavarse-manos img,
+    .container-estetoscopio-img,
+    .container-cuidados-casa div{
+        text-align: center;
+        margin-bottom: 30px;
     }
     
     /* BOTÓN ARRIBA*/ 
