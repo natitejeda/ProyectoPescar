@@ -437,11 +437,14 @@ main {
     max-width: 600px;
     margin-left: 100px;
 }
+.txt_inicio div h2 {
+    color:#6570AB;
+}
 
 .txt_inicio div p {
     width: 600px;
     height: auto;
-    color: #2E2E2E;
+    color: #7C7C7C; 
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
