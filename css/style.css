@@ -1363,6 +1363,11 @@ background-image: url(../img/donaciones/abajo.png);
   }
  /*---CIERRA DONACIONES --*/
 
+ /* BOTÓN */
+ #botonArriba {
+    display: none;
+}
+
 @media (max-width: 768px) {
     .menu_hamburguesa{
         display: flex;
@@ -1431,32 +1436,43 @@ background-image: url(../img/donaciones/abajo.png);
 
     /*-------------------------------- INFORMACIÓN -------------------------------------------*/
     .container-logo-guia img {
-        /* margin: 30px 173px 15px 0; */
         display: none;
     }
     .container-info-guia img {
         display: none;
     }
-    .container-info-guia p {
-        margin: 0px 40px 10px 35px;
+    .container-guia-informativa h1 {
+        text-align: center;
+        font-size: 2.8rem;
+        font-weight: 700;
+        color: #746788;
+        margin: 40px auto 0;
+    }
+    .linea-guia {
+        display: flex;
+        margin: 20px auto 0;
+        width: 90%;
+        height: 6px;
+    }
+    .container-info-guia{
+        margin-top: 20px;
+    }
+    .container-info-guia h2,
+    .container-info-guia p{
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .container-info-guia h2{
+        margin-bottom: 25px;
+    }
+    .container-info-guia p{
+        width: 80%;
+        margin: auto;
         font-size: 1rem;
         font-weight: 500;
         color: #7F85A3;
         text-align: center;
-        width: 400px;
-    }
-    .container-guia-informativa h1 {
-        text-align: left;
-        font-size: 2.8rem;
-        font-weight: 700;
-        color: #746788;
-        margin: 40px 0 0 43px;
-    }
-    .linea-guia {
-        margin: 0px 0px 0px 23px;
-        line-height: 80px;
-        width: 500px;
-        height: 6px;
     }
     .container-info-general {
         width: 200px;
@@ -1466,9 +1482,20 @@ background-image: url(../img/donaciones/abajo.png);
         flex: 1;
     }
     
-
+    /* BOTÓN ARRIBA*/ 
+#botonArriba{
+    display: block;
+    position: fixed; /*elemento se coloca respecto al viewport*/
+    bottom: 20px;
+    right: -100px;
+    transition: 1s; /*tiempo de transición de estados*/
 }
 
+#botonArriba:hover{ /*cuando interactuamos con el elemento, por ejemplo pasando el mouse por arriba*/
+    transform: scale(1.1); /*modifica el tamaño del elemento*/
+}
+
+}
 
 
 @media (max-width: 1024px) {
