@@ -1499,6 +1499,7 @@ background-image: url(../img/donaciones/abajo.png);
         margin: auto;
     }
 
+    .container-estetoscopio-img img,
     .container-info-visitas div p,
     .container-uso-pañal img,
     .container-alimentacion-imgs img,
