@@ -1371,6 +1371,10 @@ background-image: url(../img/donaciones/abajo.png);
     display: none;
 }
 
+
+
+/*-----------------------MEDIAS QUERY---------------------*/
+
 @media (max-width: 768px) {
 
     .menu_hamburguesa{
@@ -1602,6 +1606,63 @@ background-image: url(../img/donaciones/abajo.png);
 .historias{
     flex-direction: column;
     align-items: center;
+}
+
+/*--------------------------------  DONACIONES  -------------------------------------------*/
+
+.seccion_donaciones{
+    width: 80%;
+    margin : 0 auto
+}
+
+.seccion_donaciones h2{
+    padding: 0;
+    margin-top: 70px; 
+}
+
+.seccion_banner_donaciones h3{
+    padding: 0;
+    margin: 0;
+}
+
+.seccion_banner_donaciones img{
+    width: 100%;
+    height: auto;
+}
+
+.seccion_donaciones p{
+    margin-top: 70px;
+}
+
+.contenedor_card_donaciones{
+    flex-direction: column;
+    height: auto;
+}
+
+.contenedor_card_donaciones .article_card{
+    width: 80%;
+    height: auto;
+    margin-top: 30px;
+}
+
+.contenedor_card_donaciones .article_card p{
+    margin: 20px auto;
+    width: 100%;
+}
+
+iframe {
+    width: 80%;
+}
+
+.seccion_donaciones h3{
+    width: 80%;
+}
+.accordion-item .accordion-header{
+    margin-top: 0;
+}
+
+div .accordion-body{
+    width: 80%;
 }
 }
 
