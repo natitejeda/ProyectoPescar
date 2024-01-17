@@ -995,11 +995,14 @@ footer div p a {
 
 .introduccion_comunidad_img {
     display: flex;
-    height: 900px;
-    width: auto;
+    width: 35%;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 20px;
+    margin: 20px auto;
+}
+.introduccion_comunidad_img img{
+    width: 100%;
+    height: auto;
 }
 
 .publicaciones h2{
@@ -1369,6 +1372,7 @@ background-image: url(../img/donaciones/abajo.png);
 }
 
 @media (max-width: 768px) {
+
     .menu_hamburguesa{
         display: flex;
         height: 150px;
@@ -1453,7 +1457,7 @@ background-image: url(../img/donaciones/abajo.png);
     .linea-guia-dos,
     .linea-guia {
         display: flex;
-        margin: 20px auto 0;
+        margin: 20px auto;
         width: 90%;
         height: 6px;
     }
@@ -1485,18 +1489,23 @@ background-image: url(../img/donaciones/abajo.png);
     }
     .container-info-menu{
         flex-direction: column;
+        align-items: center;
     }
 
     .menu-lateral{
-        position: none;
+        position: relative;
         top: auto;
         margin-left: 0;
-        display: none;
+        display: block;
     }
 
     #carouselExample{
         width: 100%;
         margin: auto;
+    }
+
+    .container-madres-fuertes{
+        margin-top: 140px;
     }
 
     .container-estetoscopio-img img,
@@ -1515,7 +1524,6 @@ background-image: url(../img/donaciones/abajo.png);
     }
 
     .container-cuidado h3,
-    .container-madres-fuertes,
     .container-nutricion,
     .container-alta,
     .container-cuidado,
@@ -1548,6 +1556,18 @@ background-image: url(../img/donaciones/abajo.png);
         margin-bottom: 30px;
     }
     
+    .container-alimentacion-imgs div:nth-child(2){
+        margin: 20px auto;
+    }
+
+    .container-tips-piel{
+        width: 300px;
+        margin: auto;
+    }
+    .container-tips-piel img{
+        width: 100%;
+        height: auto;
+    }
     /* BOTÓN ARRIBA*/ 
 #botonArriba{
     display: block;
@@ -1561,10 +1581,32 @@ background-image: url(../img/donaciones/abajo.png);
     transform: scale(1.1); /*modifica el tamaño del elemento*/
 }
 
+/*--------------------------------  COMUNIDAD  -------------------------------------------*/
+
+#logo_comunidad{
+    display: none;
+}
+
+.introduccion_comunidad_img{
+    width: 90%;
+    height: auto;
+}
+
+.introduccion_comunidad_img img{
+    width: 100%;
+}
+.comunidad_form{
+    width: auto;
+}
+
+.historias{
+    flex-direction: column;
+    align-items: center;
+}
 }
 
 
-@media (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     .header_nav-bar {
         display: flex;
         margin: auto 183px auto 0;
