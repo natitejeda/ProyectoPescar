@@ -1664,6 +1664,10 @@ iframe {
 div .accordion-body{
     width: 80%;
 }
+
+.seccion_donaciones .seccion_banner_donaciones h3{
+    width: fit-content;
+}
 }
 
 
