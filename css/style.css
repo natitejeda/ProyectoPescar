@@ -357,7 +357,7 @@ main {
 .modal {
     background: linear-gradient(#E5E8F8, #FFF8F8);
     height: auto;
-    width: 90%;
+    width: 70%;
     border: 5px solid #E5E8F8;
     border-radius: 37px;
     text-align: center;
@@ -1275,7 +1275,7 @@ border-radius: 23px;
     background-image: url(../img/donaciones/fondo_donaciones.png);
   }
   
-  .carousel-control-prev-icon {
+  .carousel-donaciones {
     border-radius: 100px;
     border: 1px solid #e3cdf6;
     box-shadow: #973bed;
@@ -1283,7 +1283,7 @@ border-radius: 23px;
     background-color: #f177dc;
   }
   
-  .carousel-control-next-icon {
+  .carousel-donaciones {
     border-radius: 100px;
     border: 1px solid #e3cdf6;
     box-shadow: #973bed;
@@ -1396,7 +1396,7 @@ background-image: url(../img/donaciones/abajo.png);
 
     .carousel{
         width: 70%;
-        height: 200px;
+        height: auto;
         margin: 50px auto;
     }
 
@@ -1509,7 +1509,7 @@ background-image: url(../img/donaciones/abajo.png);
     }
 
     .container-madres-fuertes{
-        margin-top: 250px;
+        margin-top: 50px;
     }
 
     .container-estetoscopio-img img,
@@ -1572,6 +1572,40 @@ background-image: url(../img/donaciones/abajo.png);
         width: 100%;
         height: auto;
     }
+
+    /* CARD DE EMOCIONES-------------------------------------- */
+    .modal h2 {
+        color: #6570AB;
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 25px;
+    }
+    
+    .modal p {
+        margin-left: 20px;
+        color: #6570AB;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 1.5rem;
+        margin-right: 20px;
+    }
+    
+    .modal div p {
+        color: #6B719A;
+        font-weight: 200;
+        font-size: 1rem;
+    }
+    
+    .modal {
+        background: linear-gradient(#E5E8F8, #FFF8F8);
+        height: auto;
+        width: 60%;
+        border: 5px solid #E5E8F8;
+        border-radius: 20px;
+    /* CARD DE EMOCIONES-------------------------------------- */
+
+    }
+
     /* BOTÓN ARRIBA*/ 
 #botonArriba{
     display: block;
