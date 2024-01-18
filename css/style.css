@@ -369,7 +369,7 @@ main {
     transition: transform 1s;
     transform: translateY(0%);
     color: #670179;
-
+    padding: 50px;
 }
 
 .modal-close {
@@ -1509,7 +1509,7 @@ background-image: url(../img/donaciones/abajo.png);
     }
 
     .container-madres-fuertes{
-        margin-top: 140px;
+        margin-top: 250px;
     }
 
     .container-estetoscopio-img img,
